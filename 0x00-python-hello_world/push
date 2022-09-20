@@ -1,7 +1,8 @@
 #!/bin/bash
-echo Adding $0
-git add $0
+echo Adding {$1}
+git add $1
 echo Committing!!
-git commit -m "Adding {$0}"
-echo ** Pushing **
+git commit -m "Added {$1}"
+echo *** Pushing ***
 git push
+
