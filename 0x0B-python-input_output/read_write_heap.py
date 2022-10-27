@@ -10,6 +10,7 @@ def print_error():
     sys.stdout.write(" replace_string\n")
     sys.exit(1)
 
+
 if __name__ == "__main__":
     if len(sys.argv) is not 4:
         print_error()
