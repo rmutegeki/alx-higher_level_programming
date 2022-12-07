@@ -171,9 +171,10 @@ class TestRectangleMethods(unittest.TestCase):
             self.assertEqual(str_out.getvalue(), res)
 
     def test_str_2(self):
-        """ Test __str__ return value """ = Rectangle(3, 2, 8, 8, 10)
+        """ Test __str__ return value """
+        r1 = Rectangle(3, 2, 8, 8, 10)
         res = "[Rectangle] (10) 8/8 - 3/2\n"
-        with patch('sysstdout', ne=StrngIO()) as str_out:
+        with patch('sys.stdout', new=StringIO()) as str_out:
             print(r1)
             self.assertEqual(str_out.getvalue(), res)
 
