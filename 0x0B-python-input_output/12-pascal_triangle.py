@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+Module 12-pascal_triangle
+Contains function that returns int lists of pascal triangle of any given size
+"""
+
+
 def pascal_triangle(n):
     """ Function that returns the pascal triangle
 
