@@ -1,5 +1,5 @@
 #!/usr/bin/node
-function second_largest (values) {
+function secondLargest (values) {
   if (values.length <= 1) {
     return 0;
   }
