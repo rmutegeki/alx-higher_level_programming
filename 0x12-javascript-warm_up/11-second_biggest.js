@@ -8,4 +8,4 @@ function secondLargest (values) {
 }
 
 const list = process.argv.slice(2).map(x => parseInt(x));
-console.log(second_largest(list));
+console.log(secondLargest(list));
