@@ -1,5 +1,5 @@
 #!/usr/bin/node
-function second_largest (values) {
+function secondLargest (values) {
   if (values.length <= 1) {
     return 0;
   }
@@ -8,4 +8,4 @@ function second_largest (values) {
 }
 
 const list = process.argv.slice(2).map(x => parseInt(x));
-console.log(second_largest(list));
+console.log(secondLargest(list));
